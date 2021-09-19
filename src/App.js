@@ -1,17 +1,16 @@
 import React from 'react';
-import './App.css';
 
+import Home from './home';
+import './bootstrap.min.css'
 
-const App = () => {
-
-
-
+function App() {
 
   return (
-    <div className="App">
-      
-    </div>
-  );
-}
+
+    <Home />
+
+  )
+
+}  
 
 export default App;
